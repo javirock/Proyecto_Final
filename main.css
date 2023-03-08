@@ -1,0 +1,93 @@
+/*Importar Fuentes*/
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 400;
+}
+
+/*Estilos del Header*/
+
+.header{
+    width: 100%;
+    height: 140px;
+}
+
+.nav{
+    height: auto;
+    background-color: dimgray;
+}
+
+.nav-link-estudios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link-estudios a{
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    height: auto;
+    padding: 10px 20px;
+    vertical-align: center;
+}
+
+.nav-link-experiencia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link-experiencia a{
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    height: auto;
+    padding: 10px 20px;
+    vertical-align: center;
+}
+
+.nav-div-social-icons{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    vertical-align: center;
+}
+.nav-div-social-icons i{
+    color: aliceblue;
+    font-size: 28px;
+    padding: 0 3% 0 3%;
+}
+
+/*Estilos del Main*/
+
+.home-main{
+    width: 100%;
+    height: 100%;
+    background-color: snow;
+}
+
+.main-contenedor-img{
+    height: 100%;
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+    padding-bottom: 25%;
+}
+
+.main-contenedor-img img{
+    width: 50%;
+}
